@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>banhkhome</title>
+ <link rel="stylesheet" href="style3.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="inner-header container">
+            <a href="main2.html" id="logo">vietnamfood</a>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="main2.html">ホームページ</a></li>
+                    <li><a href="tn_mienbac.html">北部</a></li>
+                    <li><a href="tn_mientrung.html">中部</a></li>
+                    <li><a href="tn_miennam.html">南部</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<section class="home" id="home">
+
+   <div class="content">
+       <h3>パン 乾燥ゴマ </h3>
+       <p>どの中心的な特製ケーキが最も有名かと聞かれると、それは間違いなくそのおいしい味で知られているゴマのドライケーキであり、それでもその珍しい伝統的な味を保持しています。以前は、ケーキは大きな休日やテトの休日にしか生産されていませんでしたが、今日では、ケーキには独自のブランドがあり、
+           ダナン省やクアンナム省だけでなく、他の省や地域でも一年中生産されています。それらは中国で入手可能であり、それらを楽しみたい訪問者がそれらを簡単に購入できるように支援します。
+    </p>
+   </div>
+   <div class="image">
+       <img src="hinhanh_3/banh1.jpg" alt="">
+   </div>
+</section>
+
+
+<section class="home" id="home">
+   <div class="row">
+       <div class="col50">
+           <h3>起源</h3>
+           <p> 干しごまケーキは、お祭りの際にごま、もち米、ごま、砂糖を使って作られ、祖父母や祖先を崇拝するために使われる商品です。&lt;br/&gt;ケーキには、ドライクラッカーとドライケーキの2種類があります。ゴマ。素材は同じです。もち米粉、外シャツのみが異なり、もち米粉で乾燥でき、乾燥ゴマはフエゴマと同様にゴマで覆われています。実際、乾燥ゴマは乾燥爆発の単なる改良であるため、ハイヴァン峠を北に渡り、ソイ斜面を離れて南に入ることができます。 </p>
+           </div> 
+       <div class="image">
+           <img src="hinhanh_3/banh-kho-me-3.jpg" alt="">
+       </div>
+       </div>
+    </section>
+   <section class="menu" id="menu">
+       <div class="title">
+            <h3> 主原料  </h3>
+            </div>
+       <div class="content">
+           <div class="box">
+            <div class="imgBx">     
+           <img src="hinhanh_3/me.jpg">
+       </div>
+       <div class="text">
+           <h1> 乾燥ゴマ</h1>
+       </div>
+       </div>
+   
+               <div class="box">
+                   <div class="imgBx">     
+                  <img src="hinhanh_3/duong.jpg">
+              </div>
+              <div class="text">
+                  <h1>砂糖</h1>
+              </div> 
+              </div>
+              
+              <div class="box">
+                  
+               <div class="imgBx">     
+              <img src="hinhanh_3/gung.jpg">
+          </div>
+          <div class="text">
+              <h1>ショウガ </h1>
+          </div> 
+          </div>
+          <div class="box">
+                  
+            <div class="imgBx">     
+           <img src="hinhanh_3/gao.jpeg">
+       </div>
+       <div class="text">
+           <h1> 米　 </h1>
+       </div> 
+       </div>
+      </div>
+      
+         </section>
+         
+         
+         <section class="anh1">
+
+            <div>
+              <h4>おすすめ:</h4>
+                     <p style="font-size: large;">  
+                   <br> リェウさんのパン 乾燥ゴマ　
+                   </p>
+                   </div>
+    </section>      
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+    <footer class="footer">
+        <h1 class="credit"> created by <img class="logoo" src="hinhanh_2/logonabe.png">  Team </h1>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+  $(window).scroll(function() {
+      if ($(this).scrollTop()) {
+          $('header').addClass('sticky');
+      }else{
+          $('header').removeClass('sticky');
+      }
+  });
+});
+</script>
+<script>
+$(document).ready(function() {
+  $(window).scroll(function() {
+      if ($(this).scrollTop()) {
+          $('#backtop').fadeIn();
+      } else {
+          $('#backtop').fadeOut();
+      }
+  });
+  $("#backtop").click(function() {
+  $('html, body').animate({
+      scrollTop: 0
+    }, 1000);
+});
+});
+</script>
+</html>

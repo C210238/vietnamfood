@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>nemlai</title>
+ <link rel="stylesheet" href="style3.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="inner-header container">
+            <a href="main2.html" id="logo">vietnamfood</a>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="main2.html">ホームページ</a></li>
+                    <li><a href="tn_mienbac.html">北部</a></li>
+                    <li><a href="tn_mientrung.html">中部</a></li>
+                    <li><a href="tn_miennam.html">南部</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>ネムライは</h3>
+            <p>ライヴン春巻きは、ドンタップ省ライヴン地区タンタンコミューンのタンカーン集落を起源とする春巻きです。 このタイプの春巻きはバナナの葉で包まれており、中は赤とピンクで、甘くてスパイシーな味わいです。 ライヴンの春巻きの他に、ニンホアの春巻き（カーンホア）とタンホアの春巻きも非常に有名で、長年の種類の春巻きです。 ただし、地域ごとにパッケージや方法が異なります。
+                南西部に旅行する機会があれば、本物のライヴン春巻きのいくつかの束はあなたの愛する人への素晴らしい贈り物になります。 </p>
+           </div>
+    
+
+        <div class="image">
+            <img src="hinhanh_3/nemlai1.jpg" alt="">
+        </div>
+
+    </section>
+  <section class="home" id="home">
+        <div class="row">
+            <div class="col50">
+                <h3 >ネムライの味</h3>
+                <p> Nem Laiは、それを楽しむ人々に色と風味の満足をもたらすという点で、食事をする人を感動させます。 おやつとして単独で食べることも、春雨、パン、ご飯と組み合わせて食べることもできます。 また、春巻きを炭火で焼いても美味しく召し上がれます。
+                    食事をより美味しくするために、ハーブや魚醤と組み合わせることができます。</p>
+                    </div>
+                
+                <div class="image">
+                    <img src="hinhanh_3/nemlai2.jpg" alt="nemlai"　width="489" heigh="535">
+                </div>
+                </div>
+        
+    </section>
+
+
+    <section class="menu" id="menu">
+        <div class="title">
+ <h3> 材料</h3>
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="hinhanh_3/nemlai3.jpg">
+                </div>
+                <div class="text">
+                    <h3>豚肉</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="hinhanh_3/nemlai6.jpg">
+                </div>
+                <div class="text">
+                    <h3>スパイス</h3>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="imgBx">
+                    <img src="hinhanh_3/nemlai4.jpg">
+                </div>
+                <div class="text">
+                    <h3>バナナの葉</h3>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="imgBx">
+                    <img src="hinhanh_3/nemlai5.jpg">
+                </div>
+                <div class="text">
+                    <h3>豚肉</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about1" id="about1">
+        <div class="row1">
+            <div class="col501">
+                <h4>おすすめ</h4>
+
+                <p style="font-size: large;">
+                <br>ベトナム : Nem Lai Vung Út Thẳng
+                <br>住所：QL80, TT. Lai Vung, Lai Vung, Đồng Tháp, Việt Nam
+                <br>日本：ベトナム料理東京-池袋
+                <br>住所：171-0021東京都豊島区西池袋1丁目-18-102
+            </p>
+        </div>
+        </div>
+    </section>
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+    <footer class="footer">
+        <h1 class="credit"> created by <img class="logoo" src="hinhanh_2/logonabe.png">  Team </h1>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function() {
+      $(window).scroll(function() {
+          if ($(this).scrollTop()) {
+              $('header').addClass('sticky');
+          }else{
+              $('header').removeClass('sticky');
+          }
+      });
+  });
+</script>
+<script>
+  $(document).ready(function() {
+      $(window).scroll(function() {
+          if ($(this).scrollTop()) {
+              $('#backtop').fadeIn();
+          } else {
+              $('#backtop').fadeOut();
+          }
+      });
+      $("#backtop").click(function() {
+      $('html, body').animate({
+          scrollTop: 0
+        }, 1000);
+  });
+});
+</script>
+</html>

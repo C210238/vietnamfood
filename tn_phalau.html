@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>phalau</title>
+ <link rel="stylesheet" href="style3.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="inner-header container">
+            <a href="main2.html" id="logo">vietnamfood</a>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="main2.html">ホームページ</a></li>
+                    <li><a href="tn_mienbac.html">北部</a></li>
+                    <li><a href="tn_mientrung.html">中部</a></li>
+                    <li><a href="tn_miennam.html">南部</a></li>
+            </nav>
+        </div>
+    </header>
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Pha Lau</h3>
+            <p>サイゴンは人口密度の高い場所であるため、料理は非常に多様であり、その中でも多くの人に愛されている料理です。 それはベトナム人にとって中毒性があるだけでなく、外国人でさえ抵抗することはできません。
+                Pha Lauは、悪臭がなくなるまで洗浄した後、ココナッツウォーターで煮て、強くてジューシーな風味を獲得します。 パンに浸した濃厚なスープは最高です。  </p>
+           </div>
+    
+
+        <div class="image">
+            <img src="hinhanh_3/laubo1.jpg" alt="">
+        </div>
+
+    </section>
+  <section class="home" id="home">
+        <div class="row">
+            <div class="col50">
+                <h3>Pha Lauの味 </h3>
+                <p> 調理鍋はキッチンに置かれます。 食べるたびに再加熱され、鍋の水が空になると補充されます。 この調理法は、料理の美味しくて特徴的で栄養価の高い風味を作り出すのに役立ちます。
+                    時間が経つにつれて、料理はベトナムの人々に合うように変更されました。 ご飯やパンを添えたディップソースのファラウは、多くの人に人気の料理です。 豚バラ肉を割る、牛麺を割る、鍋を割るなど、色々な料​​理があります。</p>
+                    </div>
+                
+                <div class="image">
+                    <img src="hinhanh_3/laubo2.jpg" alt="laubo"　width="489" heigh="535">
+                </div>
+                </div>
+        
+    </section>
+
+
+    <section class="menu" id="menu">
+        <div class="title">
+ <h3>材料</h3>
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="hinhanh_3/laubo3.jpg">
+                </div>
+                <div class="text">
+                    <h3>牛の心</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="hinhanh_3/laubo4.jpg">
+                </div>
+                <div class="text">
+                    <h3>ディップソース</h3>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="imgBx">
+                    <img src="hinhanh_3/laubo5.jpg">
+                </div>
+                <div class="text">
+                    <h3>ココナッツ</h3>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="imgBx">
+                    <img src="hinhanh_3/laubo6.jpg">
+                </div>
+                <div class="text">
+                    <h3>ココナッツウォーター</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about1" id="about1">
+        <div class="row1">
+            <div class="col501">
+                <h4>おすすめ</h4>
+
+                <p style="font-size: large;">
+                <br>ベトナム : Quán Phá Lấu Bò Cô Thảo
+                <br>住所： 243/29G Đường Tôn Đản, Phường 15, Quận 4, Thành phố Hồ Chí Minh, Việt Nam
+                
+            </p>
+        </div>
+        </div>
+    </section>
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+    <footer class="footer">
+        <h1 class="credit"> created by <img class="logoo" src="hinhanh_2/logonabe.png">  Team </h1>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function() {
+      $(window).scroll(function() {
+          if ($(this).scrollTop()) {
+              $('header').addClass('sticky');
+          }else{
+              $('header').removeClass('sticky');
+          }
+      });
+  });
+</script>
+<script>
+  $(document).ready(function() {
+      $(window).scroll(function() {
+          if ($(this).scrollTop()) {
+              $('#backtop').fadeIn();
+          } else {
+              $('#backtop').fadeOut();
+          }
+      });
+      $("#backtop").click(function() {
+      $('html, body').animate({
+          scrollTop: 0
+        }, 1000);
+  });
+});
+</script>
+</html>

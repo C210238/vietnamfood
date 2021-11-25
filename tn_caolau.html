@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>caolau</title>
+ <link rel="stylesheet" href="style3.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="inner-header container">
+            <a href="main2.html" id="logo">vietnamfood</a>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="main2.html">ホームページ</a></li>
+                    <li><a href="tn_mienbac.html">北部</a></li>
+                    <li><a href="tn_mientrung.html">中部</a></li>
+                    <li><a href="tn_miennam.html">南部</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<section class="home" id="home">
+
+   <div class="content">
+       <h3>カーオロウ </h3>
+       <p>ホイアンの古代の町を参照すると、誰もがここの料理の誇りと考えられている有名なカオラウ料理を覚えています。この料理は名前から調理方法まで特別です。サクサクの麺を作るには、香ばしいご飯を灰水に浸し、よくろ過し、ご飯をすりつぶし、沸騰させ、溶かして水を放出し、詰め込み、何度も蒸すまで、多くの段階を経る必要があります。乾きます。新鮮な麺に、カリカリに揚げた乾麺、豚肉の薄切り、甘くて濃厚なスープ、苦い野菜、キャベツ、バジルを添えて、すべておいしいです。しゃっくり。美しいホイアンを訪れた後、道端のレストランに立ち寄り、カオラウのボウルを注文し、その特別な味を楽しむことはあなたの旅行に最適です。</p>
+   </div>
+
+   <div class="image">
+       <img src="hinhanh_3/caolau1.png" alt="">
+   </div>
+
+</section>
+
+
+<section class="home" id="home">
+   <div class="row">
+       <div class="col50">
+           <h3>起源</h3>
+           <p> ホイアンの長年の中国人によると、カオラウはホイアン港が開港したばかりの17世紀から旧市街に現れ、グエン卿は外国の商船がここに来て商品を交換することを許可しました。 日本人は最初にホイアンに入って貿易をしましたが、この古代の土地で最も長く残ったのは中国人でした。 </p>
+        
+               
+       
+           </div> 
+  
+   
+       <div class="image">
+           <img src="hinhanh_3/caolau2.jpg" alt="">
+       </div>
+       </div>
+    </section>
+
+  
+   <section class="menu" id="menu">
+       <div class="title">
+           
+            
+            
+            
+            <h3> 主原料</h3>
+            </div>
+
+       <div class="content">
+           <div class="box">
+            <div class="imgBx">     
+           <img src="hinhanh_3/bot.jpeg">
+       </div>
+       <div class="text">
+           <h1>小麦粉 </h1>
+       </div>
+       </div>
+   
+               <div class="box">
+                   <div class="imgBx">     
+                  <img src="hinhanh_3/xuongong.jpg">
+              </div>
+              <div class="text">
+                  <h1>豚骨</h1>
+              </div> 
+              </div>
+              
+              <div class="box">
+                  
+               <div class="imgBx">     
+              <img src="hinhanh_3/rau.jpg">
+          </div>
+          <div class="text">
+              <h1>野菜 </h1>
+          </div> 
+          </div>
+          <div class="box">
+                  
+            <div class="imgBx">     
+           <img src="hinhanh_3/thitheo.jpg">
+       </div>
+       <div class="text">
+           <h1>豚肉 </h1>
+       </div> 
+       </div>
+      </div>
+      
+         </section>
+         
+         
+         <section class="anh1">
+
+            <div>
+                <h4>  おすすめ :</h4>
+                   <p style="font-size: large;">  
+                   <br>カーオロウ 267 グエンティロイ
+                   <br>カーオロウ ホァイ　フォ, 255 グエンチータン
+
+                   </p>
+                   </div>
+    </section>
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+    <footer class="footer">
+        <h1 class="credit"> created by <img class="logoo" src="hinhanh_2/logonabe.png">  Team </h1>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+  $(window).scroll(function() {
+      if ($(this).scrollTop()) {
+          $('header').addClass('sticky');
+      }else{
+          $('header').removeClass('sticky');
+      }
+  });
+});
+</script>
+<script>
+$(document).ready(function() {
+  $(window).scroll(function() {
+      if ($(this).scrollTop()) {
+          $('#backtop').fadeIn();
+      } else {
+          $('#backtop').fadeOut();
+      }
+  });
+  $("#backtop").click(function() {
+  $('html, body').animate({
+      scrollTop: 0
+    }, 1000);
+});
+});
+</script>
+</html>

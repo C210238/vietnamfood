@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>vietnamfood</title>
+</head>
+<body>
+    <header>
+        <div class="inner-header container">
+            <a href="main.html" id="logo">vietnamfood</a>
+            <nav>
+                <ul id="main-menu">
+                  <li><a href="main.html">Trang chủ</a></li>
+                  <li><a href="mienbac.html">Miền Bắc</a></li>
+                  <li><a href="mientrung.html">Miền Trung</a></li>
+                  <li><a href="miennam.html">Miền Nam</a></li>
+                  <li><a href="main2.html">日本語</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="slideshow">
+        <div class="slideshow-item">
+           <img src="hinhanh/hanoi.jpg"alt="">
+            <div class="slideshow-item-text">
+              <h5>Hà Nội</h5>
+              <p>
+                Ẩm thực Hà Nội vô cùng phong phú và có sự thay đổi. Hà Nội được xem là “thiên đường” của các món ngon nức tiếng.</p>
+          </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="hinhanh/hoian.jpg"
+                alt="">
+                <div class="slideshow-item-text">
+                  <h5>Phố Cổ Hội An</h5>
+                  <p>
+                    Ẩm thực Hội An vô cùng phong phú và đa dạng, nhưng chúng đều mang những đặc trưng riêng của vùng biển miền Trung. 
+                  </p>
+              </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="hinhanh/hochiminh.jpg"
+                alt=""> 
+                <div class="slideshow-item-text">
+                  <h5> Tp. Hồ Chí Minh</h5>
+                  <p>
+                    Văn hóa ẩm thực Thành phố Hồ Chí Minh được nhiều người biết đến là nơi hội tụ tinh hoa của các món ăn ngon, độc đáo của đất Nam bộ cũng như của mọi vùng miền trên khắp cả nước. 
+                  </p>
+              </div>
+        </div>
+    </div>
+ <section class="main_x">
+    <figure class="snip0016">
+        <img src="hinhanh/pho.jpg" alt=""/>
+        <figcaption>
+          <h2>Ẩm thực <span>miền bắc</span></h2>
+          <p style="font-style: italic;">có vị vừa phải, không quá nồng nhưng lại có màu sắc sặc sỡ, thường không đậm các vị cay, béo, ngọt, chủ yếu sử dụng nước mắm loãng, mắm tôm.</p>
+          <a href="mienbac.html"></a>
+        </figcaption>     
+      </figure>
+      <figure class="snip0016">
+        <img src="hinhanh/bunbohue.jpg" alt="sample42"/>
+        <figcaption>
+          <h2>ẩm thực <span>miền trung</span></h2>
+          <p style="font-style: italic;">có vị đậm hơn, nồng độ mạnh. Tính đặc sắc thể hiện qua hương vị đặc biệt, nhiều món ăn cay và mặn. Màu sắc được phối trộn phong phú, rực rỡ, thiên về màu đỏ và nâu sậm. Ẩm thực miền Trung nổi tiếng với mắm tôm chua, các loại ruốc.</p>
+          <a href="mientrung.html"></a>
+        </figcaption>     
+      </figure>
+      <figure class="snip0016">
+        <img src="hinhanh_3/hutieu2.jpg" alt=""/>
+        <figcaption>
+          <h2>ẩm thực <span>miền nam</span> </h2>
+          <p style="font-style: italic;">do chịu nhiều ảnh hưởng của ẩm thực Trung Hoa, Campuchia, Thái Lan nên các món ăn của người miền Nam thiên về độ ngọt, độ cay, phổ biến các loại mắm khô như mắm cá sặc, mắm bò hóc, mắm ba khía…</p>
+          <a href="miennam.html"></a>
+        </figcaption>     
+      </figure>
+    </section>
+  <footer class="footer">
+    <h1 class="credit"> created by <img class="logoo" src="hinhanh_2/logonabe.png">  Team </h1>
+</footer>
+   
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+  <script>
+      $(document).ready(function() {
+          $(window).scroll(function() {
+              if ($(this).scrollTop()) {
+                  $('header').addClass('sticky');
+              }else{
+                  $('header').removeClass('sticky');
+              }
+          });
+      });
+  </script>
+  <script>
+      $(document).ready(function() {
+          $(window).scroll(function() {
+              if ($(this).scrollTop()) {
+                  $('#backtop').fadeIn();
+              } else {
+                  $('#backtop').fadeOut();
+              }
+          });
+          $("#backtop").click(function() {
+          $('html, body').animate({
+              scrollTop: 0
+            }, 1000);
+      });
+    });
+  </script>
+</html> 

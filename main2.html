@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>vietnamfood</title>
+</head>
+<body>
+    <header>
+        <div class="inner-header container">
+            <a href="main2.html" id="logo">vietnamfood</a>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="main2.html">ホームページ</a></li>
+                    <li><a href="tn_mienbac.html">北部</a></li>
+                    <li><a href="tn_mientrung.html">中部</a></li>
+                    <li><a href="tn_miennam.html">南部</a></li>
+                    <li><a href="main.html">tiếng việt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="slideshow">
+        <div class="slideshow-item">
+            <img src="hinhanh/hanoi.jpg"alt="">
+            <div class="slideshow-item-text">
+              <h5>ハノイ</h5>
+              <p>
+                ハノイ料理は非常に豊富で多様です。ハノイは有名な珍味の「楽園」と見なされています。</p>
+          </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="hinhanh/hoian.jpg" alt="">
+            <div class="slideshow-item-text">
+              <h5>ホイアン</h5>
+              <p>
+                ホイアン料理は非常に豊富で多様ですが、それらはすべてセントラルコーストの独自の特徴を持っています。</p>
+          </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="hinhanh/hochiminh.jpg" alt=""> 
+            <div class="slideshow-item-text">
+              <h5>ホーチミン</h5>
+              <p>
+                料理文化ホーチミン市は、南部だけでなく全国のすべての地域の美味しくてユニークな料理の真髄の収束として多くの人々に知られています。</p>
+          </div>
+        </div>
+    </div>
+ <section class="main_x">
+    <figure class="snip0016">
+        <img src="hinhanh/pho.jpg" alt=""/>
+        <figcaption>
+          <h2><span>北部</span>の料理</h2>
+          <p style="font-style: italic;">味は適度で、強すぎず、カラフルで、通常は辛くなく、脂っこく、甘くなく、主に薄めた魚醤、エビのペーストを使用しています。</p>
+          <a href="tn_mienbac.html"></a>
+        </figcaption>     
+      </figure>
+      <figure class="snip0016">
+        <img src="hinhanh/bunbohue.jpg" alt="sample42"/>
+        <figcaption>
+          <h2><span>中部</span>の料理</h2>
+          <p style="font-style: italic;">より強い味。独特の味わい、辛くて塩辛い料理がたくさんあります。赤とダークブラウンを優先して、色が豊かに、見事に混合されています。中央料理は、酸っぱいシュリンプペースト、さまざまな種類のエビで有名です。</p>
+          <a href="tn_mientrung.html"></a>
+        </figcaption>     
+      </figure>
+      <figure class="snip0016">
+        <img src="hinhanh_3/hutieu2.jpg" alt=""/>
+        <figcaption>
+          <h2><span>南部</span>の料理 </h2>
+          <p style="font-style: italic;">中華料理、カンボジア料理、タイ料理の影響で、南部料理は甘くてスパイシーな傾向があり、チョークフィッシュソース、ボホックフィッシュソース、バケンフィッシュソースなどの乾燥魚醤が人気があります。</p>
+          <a href="tn_miennam.html"></a>
+        </figcaption>     
+      </figure>
+    </section>
+  <footer class="footer">
+    <h1 class="credit"> created by <img class="logoo" src="hinhanh_2/logonabe.png">  Team </h1>
+</footer>
+   
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+  <script>
+      $(document).ready(function() {
+          $(window).scroll(function() {
+              if ($(this).scrollTop()) {
+                  $('header').addClass('sticky');
+              }else{
+                  $('header').removeClass('sticky');
+              }
+          });
+      });
+  </script>
+  <script>
+      $(document).ready(function() {
+          $(window).scroll(function() {
+              if ($(this).scrollTop()) {
+                  $('#backtop').fadeIn();
+              } else {
+                  $('#backtop').fadeOut();
+              }
+          });
+          $("#backtop").click(function() {
+          $('html, body').animate({
+              scrollTop: 0
+            }, 1000);
+      });
+    });
+  </script>
+</html> 

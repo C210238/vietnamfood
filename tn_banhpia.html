@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>banhpia</title>
+ <link rel="stylesheet" href="style3.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="inner-header container">
+            <a href="main2.html" id="logo">vietnamfood</a>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="main2.html">ホームページ</a></li>
+                    <li><a href="tn_mienbac.html">北部</a></li>
+                    <li><a href="tn_mientrung.html">中部</a></li>
+                    <li><a href="tn_miennam.html">南部</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>ピアケーキは</h3>
+            <p>ピアケーキ（チャオゾウ語で「ピア」/「ピエ」はケーキを意味します）は、通常、中秋節とTETの休日の際に作られる、チャオゾウ（ティウの人々）の月餅に由来します。 。
+                日常生活の中で、ミンフォンの人々は今でも家族のニーズに合わせてピアケーキを作り、祖国への郷愁を保っています。
+            </p>
+            </div>
+    
+
+        <div class="image">
+            <img src="hinhanh_3/banhpia5.jpg" alt="">
+        </div>
+
+    </section>
+  <section class="home" id="home">
+        <div class="row">
+            <div class="col50">
+                <h3>ピアケーキの味</h3>
+                <p> 中国人が南西部に定住したとき、彼らはベトナム人の好みに合うように徐々に処理しました。 皮は薄い皮の層がたくさん重なり合っており、簡単に剥がすことができるため、「皮付きケーキ」と呼ばれています。
+
+                    過去のピアケーキも非常にシンプルで、外殻は小麦粉でできており、中身はタウザラ（マーマレード入り緑豆ケーキ）またはイーティングザリーフ（マーマレード入りバインモン）と呼ばれています。 Can。Xai（塩漬けのキャベツの葉）-最初のピアケーキの名前がVungThomエリアに登場しました。
+                    塩漬け卵黄、里芋、小豆、ベジタリアンケーキを詰めたピアケーキ。 </p>
+                    </div>
+                
+                <div class="image">
+                    <img src="hinhanh_3/banhpia4.jpg" alt="banh"　width="489" heigh="535">
+                </div>
+                </div>
+        
+    </section>
+
+
+    <section class="menu" id="menu">
+        <div class="title">
+ <h3>ピアケーキの材料</h3>
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="hinhanh_3/banhpia3.jpg">
+                </div>
+                <div class="text">
+                    <h3>小麦粉</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="hinhanh_3/banhpia2.jpg">
+                </div>
+                <div class="text">
+                    <h3>太郎</h3>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="imgBx">
+                    <img src="hinhanh_3/trung.jpg">
+                </div>
+                <div class="text">
+                    <h3>卵</h3>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="imgBx">
+                    <img src="hinhanh_3/dauxanh.jpg">
+                </div>
+                <div class="text">
+                    <h3>サヤマメ</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about1" id="about1">
+        <div class="row1">
+            <div class="col501">
+                <h4>おすすめ</h4>
+
+                <p style="font-size: large;">
+                <br>ベトナム：Bánh Pía Lạp Xưởng Tân Huê Viên
+                <br>住所：16 Nguyễn Du, Phường 9, Sóc Trăng, Việt Nam
+                <br>日本：池袋
+                <br>住所：171-0021東京都豊島区西池袋一丁目-18-10
+            </p>
+        </div>
+        </div>
+    </section>
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+    <footer class="footer">
+        <h1 class="credit"> created by <img class="logoo" src="hinhanh_2/logonabe.png">  Team </h1>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function() {
+      $(window).scroll(function() {
+          if ($(this).scrollTop()) {
+              $('header').addClass('sticky');
+          }else{
+              $('header').removeClass('sticky');
+          }
+      });
+  });
+</script>
+<script>
+  $(document).ready(function() {
+      $(window).scroll(function() {
+          if ($(this).scrollTop()) {
+              $('#backtop').fadeIn();
+          } else {
+              $('#backtop').fadeOut();
+          }
+      });
+      $("#backtop").click(function() {
+      $('html, body').animate({
+          scrollTop: 0
+        }, 1000);
+  });
+});
+</script>
+</html>

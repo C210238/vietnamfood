@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>hutieu</title>
+<link rel="stylesheet" href="style3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="inner-header container">
+            <a href="main2.html" id="logo">vietnamfood</a>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="main2.html">ホームページ</a></li>
+                    <li><a href="tn_mienbac.html">北部</a></li>
+                    <li><a href="tn_mientrung.html">中部</a></li>
+                    <li><a href="tn_miennam.html">南部</a></li>
+            </nav>
+        </div>
+    </header>
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>ナムヴァンフーティウ</h3>
+            <p>ベトナムでの麺料理は、外国人にはフォーが著名であるが、フォーは本来北部ハノイが本場であり、南部ではこのフーティウがポピュラーである[3]。フォー、ブンが生麺で販売されるのに対し、フーティウは通常、半乾燥麺として販売されるためコシのある食感が楽しめる </p>
+           </div>
+    
+
+        <div class="image">
+            <img src="hinhanh_3/hutieu1.jpg" alt="">
+        </div>
+
+    </section>
+  <section class="home" id="home">
+        <div class="row">
+            <div class="col50">
+                <h3>材料</h3>
+                <p> ナムバンヌードルスープの材料には、ろ過小麦粉ヌードル、スープ（スープ）の材料、麺のボウルの材料、野菜の盛り合わせなどがあります。基本的な材料とプロポーションを使ったナムバンヌードルスープのレシピは次のとおりです。</p>
+
+                   <p> 豚骨（約1.5kg）;ホワイトシュリンプ（1/2 kg）;豚レバー（300g）;豚ひき肉（300g）;干しエビ（約1握り）;スルメ（中型1個）;ろ過された小麦粉麺;クッキングオイル;ニンニク1球根; 4クローブのネギ;レモン;船の匂い（コリアンダー）;チャイブの葉;もやし;セロリ;植物細胞の頻度;砂糖、塩、グルタミン酸ナトリウム（必要な場合）</p>
+                    </div>
+                
+                <div class="image">
+                    <img src="hinhanh_3/hutieu2.jpg" alt="nemlai"　width="489" heigh="535">
+                </div>
+                </div>
+        
+    </section>
+
+
+    <section class="menu" id="menu">
+        <div class="title">
+              <h3> 他の種類のフーティウ</h3>
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="hinhanh_3/hutieu3.jpg">
+                </div>
+                <div class="text">
+                    <h3>サテフーティウ</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="hinhanh_3/hutieu4.jpg">
+                </div>
+                <div class="text">
+                    <h3>牛肉フーティウ</h3>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="imgBx">
+                    <img src="hinhanh_3/hutieu5.jpg">
+                </div>
+                <div class="text">
+                    <h3>接着フーティウ</h3>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="imgBx">
+                    <img src="hinhanh_3/hutieu6.jpg">
+                </div>
+                <div class="text">
+                    <h3>乾燥フーティウ</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about1" id="about1">
+        <div class="row1">
+            <div class="col501">
+                <h4>おすすめ :</h4>
+
+                <p style="font-size: large;">
+                <br>Việt Nam :ナムヴァンフーティウ クイン
+                <br>住所：A65 Nguyen Trai,  Cu Trinh, 1区域, HCM 市
+            </p>
+        </div>
+        </div>
+    </section>
+</section>
+<div id="backtop">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+<footer class="footer">
+    <h1 class="credit"> created by <img class="logoo" src="hinhanh_2/logonabe.png">  Team </h1>
+</footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+  $(window).scroll(function() {
+      if ($(this).scrollTop()) {
+          $('header').addClass('sticky');
+      }else{
+          $('header').removeClass('sticky');
+      }
+  });
+});
+</script>
+<script>
+$(document).ready(function() {
+  $(window).scroll(function() {
+      if ($(this).scrollTop()) {
+          $('#backtop').fadeIn();
+      } else {
+          $('#backtop').fadeOut();
+      }
+  });
+  $("#backtop").click(function() {
+  $('html, body').animate({
+      scrollTop: 0
+    }, 1000);
+});
+});
+</script>
+</html>

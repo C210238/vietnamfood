@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>laucaduoi</title>
+<link rel="stylesheet" href="style3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="inner-header container">
+            <a href="main2.html" id="logo">vietnamfood</a>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="main2.html">ホームページ</a></li>
+                    <li><a href="tn_mienbac.html">北部</a></li>
+                    <li><a href="tn_mientrung.html">中部</a></li>
+                    <li><a href="tn_miennam.html">南部</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>鍋アカエイは</h3>
+            <p>ブンタウに来ることはシーフードの土地に来ています、そしてスティングレイ鍋はあなたが一度楽しむために一度試みなければならない料理です。 これはここに来るときに最も人気のある料理の1つです。
+　　　　　　　　　酸っぱいタケノコ、水ほうれん草、江葉が入ったアカエイがたっぷり入った鍋は、自然な甘酸っぱい味わいを引き出します。 アカエイの肉は柔らかくて甘く、サクサクの魚の骨をスパイシーな唐辛子の魚醤に浸すと、とても刺激的な気分になります。 
+                数分間水泳をして、アカエイ鍋の鍋を楽しんだ後は、これほど素晴らしいものはありません。  </p>
+           </div>
+    
+
+        <div class="image">
+            <img src="hinhanh_3/lauca1.jpg" alt="">
+        </div>
+
+    </section>
+  <section class="home" id="home">
+        <div class="row">
+            <div class="col50">
+                <h3 >魚鍋の味 </h3>
+                <p> ブンタウのアカエイ鍋は、加工方法がたくさんあるので、古くからその種類で有名です。
+                    それぞれの方法は、熟練したシェフによる独自の調味料です。 しかし、すべてのホットポットには、酸っぱいタケノコとスープを混ぜ合わせた、おいしい脂肪の多いアカエイという共通点が1つあります。
+                    楽しむ人の味覚を非常に刺激します。 でも、食べたいときはいつも、このアカエイ鍋の味を楽しむために、離れたプールに行かなければなりません。</p>
+                    </div>
+                
+                <div class="image">
+                    <img src="hinhanh_3/lauca2.jpg" alt="lauca"　width="489" heigh="535">
+                </div>
+                </div>
+        
+    </section>
+
+
+    <section class="menu" id="menu">
+        <div class="title">
+ <h3>材料</h3>
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="hinhanh_3/lauca3.jpg">
+                </div>
+                <div class="text">
+                    <h3>レイ</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="hinhanh_3/lauca4.jpg">
+                </div>
+                <div class="text">
+                    <h3>筍</h3>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="imgBx">
+                    <img src="hinhanh_3/lauca5.jpg">
+                </div>
+                <div class="text">
+                    <h3>トマト</h3>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="imgBx">
+                    <img src="hinhanh_3/lauca6.jpg">
+                </div>
+                <div class="text">
+                    <h3>バナナの花</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about1" id="about1">
+        <div class="row1">
+            <div class="col501">
+                <h4>おすすめ</h4>
+
+                <p style="font-size: large;">
+                <br>ベトナム : Lẩu Cá Đuối Út Mười
+                <br>住所：16A Trương Công Định, phường 3, TP. Vũng Tàu, Vũng Tàu
+                
+            </p>
+        </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <h1 class="credit"> created by <img class="logoo" src="hinhanh_2/logonabe.png">  Team </h1>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+  $(window).scroll(function() {
+      if ($(this).scrollTop()) {
+          $('header').addClass('sticky');
+      }else{
+          $('header').removeClass('sticky');
+      }
+  });
+});
+</script>
+<script>
+$(document).ready(function() {
+  $(window).scroll(function() {
+      if ($(this).scrollTop()) {
+          $('#backtop').fadeIn();
+      } else {
+          $('#backtop').fadeOut();
+      }
+  });
+  $("#backtop").click(function() {
+  $('html, body').animate({
+      scrollTop: 0
+    }, 1000);
+});
+});
+</script>
+</html>

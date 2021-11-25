@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>phalau</title>
+<link rel="stylesheet" href="style3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="inner-header container">
+            <a href="main.html" id="logo">vietnamfood</a>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="main.html">Trang chủ</a></li>
+                    <li><a href="mienbac.html">Miền Bắc</a></li>
+                    <li><a href="mientrung.html">Miền Trung</a></li>
+                    <li><a href="miennam.html">Miền Nam</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Phá Lấu</h3>
+            <p>Sài Gòn là nơi tập trung dân cư đông vì thế nó rất đa dạng về ẩm thực và trong số đó phá lấu là món được rất nhiều người yêu thích. Nó không chỉ gây nghiện cho người dân Việt Nam mà ngay cả những người nước ngoài cũng không thể cưỡng lại được. 
+               Phá lấu sau khi được làm sạch để không còn mùi hôi sẽ được luộc với nước dừa để giúp nó có được hương vị ngon ngọt thấm đậm. Nước dùng đậm đà được chấm với bánh mì thì không còn gì tuyệt vời hơn nữa.  </p>
+           </div>
+    
+        <div class="image">
+            <img src="hinhanh_3/laubo1.jpg" alt="">
+        </div>
+
+    </section>
+  <section class="home" id="home">
+        <div class="row">
+            <div class="col50">
+                <h3>Mùi vị Phá Lấu</h3>
+                <p> Nồi phá lấu sẽ được đặt trong bếp. Mỗi khi ăn sẽ được hâm nóng lại và khi nước trong nồi cạn sẽ lại châm thêm. Cách nấu này giúp tạo nên hương vị thơm ngon, đặc trưng và giàu dinh dưỡng của món ăn.</p>
+                 <p>  Theo thời gian, món phá lấu đã được biến tấu đi để phù hợp với người Việt. Phá lấu kèm với nước chấm, ăn cùng cơm hay bánh mì là món ăn được nhiều người yêu thích. Có nhiều món phá lấu khác nhau như phá lấu heo, phá lấu bò, lẩu phá lấu…</p>
+                    </div>
+            
+                <div class="image">
+                    <img src="hinhanh_3/laubo2.jpg" alt="laubo"　width="489" heigh="535">
+                </div>
+                </div>
+        
+    </section>
+
+
+    <section class="menu" id="menu">
+        <div class="title">
+ <h3> NGUYÊN LIỆU</h3>
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="hinhanh_3/laubo3.jpg">
+                </div>
+                <div class="text">
+                    <h3>Lòng Bò</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="hinhanh_3/laubo4.jpg">
+                </div>
+                <div class="text">
+                    <h3>Nước chấm</h3>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="imgBx">
+                    <img src="hinhanh_3/laubo5.jpg">
+                </div>
+                <div class="text">
+                    <h3>Nước cốt dừa</h3>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="imgBx">
+                    <img src="hinhanh_3/laubo6.jpg">
+                </div>
+                <div class="text">
+                    <h3>Nước dừa</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about1" id="about1">
+        <div class="row1">
+            <div class="col501">
+                <h4>GIỚI THIỆU</h4>
+
+                <p style="font-size: large;">
+                <br>Việt Nam : Quán Phá Lấu Bò Cô Thảo
+                <br>Địa Chỉ： 243/29G Đường Tôn Đản, Phường 15, Quận 4, Thành phố Hồ Chí Minh, Việt Nam
+                
+            </p>
+        </div>
+        </div>
+    </section>
+</section>
+<div id="backtop">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+<footer class="footer">
+    <h1 class="credit"> created by <img class="logoo" src="hinhanh_2/logonabe.png">  Team </h1>
+</footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+  $(window).scroll(function() {
+      if ($(this).scrollTop()) {
+          $('header').addClass('sticky');
+      }else{
+          $('header').removeClass('sticky');
+      }
+  });
+});
+</script>
+<script>
+$(document).ready(function() {
+  $(window).scroll(function() {
+      if ($(this).scrollTop()) {
+          $('#backtop').fadeIn();
+      } else {
+          $('#backtop').fadeOut();
+      }
+  });
+  $("#backtop").click(function() {
+  $('html, body').animate({
+      scrollTop: 0
+    }, 1000);
+});
+});
+</script>
+</html>

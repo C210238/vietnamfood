@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>banhkhome</title>
+<link rel="stylesheet" href="style3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="inner-header container">
+            <a href="main.html" id="logo">vietnamfood</a>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="main.html">Trang chủ</a></li>
+                    <li><a href="mienbac.html">Miền Bắc</a></li>
+                    <li><a href="mientrung.html">Miền Trung</a></li>
+                    <li><a href="miennam.html">Miền Nam</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+<section class="home" id="home">
+   <div class="content">
+       <h3>BÁNH KHÔ MÈ </h3>
+       <p>Nếu được hỏi món bánh đặc sản miền Trung nào nổi tiếng nhất thì chắc chắn đó là bánh khô mè được biết đến với vị thơm ngon và vẫn giữ được hương vị cổ truyền hiếm có. Trước kia bánh chỉ được sản xuất vào dịp lễ lớn hay dịp tết nhưng ngày nay bánh đã có thương hiệu riêng và được sản xuất quanh năm, không chỉ ở các tỉnh Đà Nẵng hay Quảng Nam có món bánh này mà khắp các tỉnh thành miền Trung đều có, giúp du khách muốn thưởng thức đều có thể dễ dàng mua được.
+    </p>
+   </div>
+
+   <div class="image">
+       <img src="hinhanh_3/banh1.jpg" alt="">
+   </div>
+
+</section>
+
+
+<section class="home" id="home">
+   <div class="row">
+       <div class="col50">
+           <h3>NGUỒN GỐC</h3>
+           <p> Bánh khô mè được làm từ gạo, nếp, mè và đường vào dịp Lễ hội, Tết Nguyên Đán, là sản phẩm dùng để thờ cúng ông bà, tổ tiên...</p>
+
+           <p> Có hai loại bánh: khô nổ và khô mè. Chất liệu nền giống nhau: bột gạo nếp, chỉ khác chiếc áo bên ngoài, khô nổ được áo với bột nếp, khô mè phủ quanh là mè, gần giống mè xững Huế. Thực ra khô mè chỉ là bước cải tiến của khô nổ, nhờ thế mới có thể vượt đèo Hải Vân để ra Bắc, rời dốc Sỏi để vào Nam. </p>
+        
+           </div> 
+           <img class="image" src="hinhanh_3/banh-kho-me-3.jpg" alt="">
+       </div>
+    </section>
+   <section class="menu" id="menu">
+       <div class="title">
+            <h3>NGUYÊN LIỆU CHÍNH</h3>
+            </div>
+      <div class="content">
+           <div class="box">
+            <div class="imgBx">     
+           <img src="hinhanh_3/me.jpg">
+       </div>
+       <div class="text">
+           <h1> mè</h1>
+       </div>
+       </div>
+               <div class="box">
+                   <div class="imgBx">     
+                  <img src="hinhanh_3/duong.jpg">
+              </div>
+              <div class="text">
+                  <h1>đường </h1>
+              </div> 
+              </div>
+              
+              <div class="box">
+                  
+               <div class="imgBx">     
+              <img src="hinhanh_3/gung.jpg">
+          </div>
+          <div class="text">
+              <h1>gừng </h1>
+          </div> 
+          </div>
+          <div class="box">
+                  
+            <div class="imgBx">     
+           <img src="hinhanh_3/gao.jpeg">
+       </div>
+       <div class="text">
+           <h1>gạo  </h1>
+       </div> 
+       </div>
+      </div>
+         </section>
+         <section class="anh1">
+            <div class="anh">
+                <h4> GIỚI THIỆU :</h4>
+                   <p style="font-size: large;">  
+                    bánh khô mè bà liễu 
+                   </p>
+                   </div>
+    </section>
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+    <footer class="footer">
+        <h1 class="credit"> created by <img class="logoo" src="hinhanh_2/logonabe.png">  Team </h1>
+  </footer>     
+        </body>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function() {
+      $(window).scroll(function() {
+          if ($(this).scrollTop()) {
+              $('header').addClass('sticky');
+          }else{
+              $('header').removeClass('sticky');
+          }
+      });
+  });
+</script>
+<script>
+  $(document).ready(function() {
+      $(window).scroll(function() {
+          if ($(this).scrollTop()) {
+              $('#backtop').fadeIn();
+          } else {
+              $('#backtop').fadeOut();
+          }
+      });
+      $("#backtop").click(function() {
+      $('html, body').animate({
+          scrollTop: 0
+        }, 1000);
+  });
+});
+</script></html>

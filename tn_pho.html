@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>pho</title>
+ <link rel="stylesheet" href="style3.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+
+</head>
+<body>
+    <header>
+        <div class="inner-header container">
+            <a href="main2.html" id="logo">vietnamfood</a>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="main2.html">ホームページ</a></li>
+                    <li><a href="tn_mienbac.html">北部</a></li>
+                    <li><a href="tn_mientrung.html">中部</a></li>
+                    <li><a href="tn_miennam.html">南部</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>フォーとは</h3>
+            <p>ご存知の通りフォーはベトナムの国民食だ。1日3食フォーで済ませる人もいるとか。ベトナムでは年間3回も米が収穫されており、世界でも5本の指に入る生産量を誇る。</p>
+            <p> フォーは米粉と水を練って作られる、きしめん状の平たい麺だ。ベトナムでは高級ホテルの朝食やレストラン、路上の屋台まで、街中の至る所で食べることができる。フォーはベトナムのソウルフード的存在なのだ。しかし家庭で作ることは少なく、外食として親しまれている。
+            </p>
+        </div>
+
+        <div class="image">
+            <img src="hinhanh_3/Phobo1.jpg" alt="">
+        </div>
+
+    </section>
+
+
+    <section class="home" id="home">
+        <div class="row">
+            <div class="col50">
+                <h3>フォー味</h3>
+                <p> 注文してフォーがきたらそのまま食べるのではなく、唐辛子やバジルなどの香草をのせて、自分好みの味にして食べる人がベトナムではほとんどです。
+
+                    基本のスープは鶏がらベースの透明なスープにヌクマム（魚醤油）や香辛料で味付けしたものです。</p>
+                  <p>  中には牛骨スープを使用しているお店もあります。暖かいあっさりとした味です。
+                    スープの中に米の麺を入れ、鳥、豚、牛の肉を上に乗せ香草をちらすのが一般的のフォーです。 </p>
+
+
+            </div>
+
+
+            <div class="image">
+                <img src="hinhanh_3/Phogap1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="menu" id="menu">
+        <div class="title">
+
+
+
+
+            <h3> フォー種類</h3>
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="hinhanh_3/Phoga.jpg">
+                </div>
+                <div class="text">
+                    <h3> 鶏肉フォー</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="hinhanh_3/Phobo.jpg">
+                </div>
+                <div class="text">
+                    <h3>牛肉フォー</h3>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="imgBx">
+                    <img src="hinhanh_3/Phoquan.jpg">
+                </div>
+                <div class="text">
+                    <h3>フォークオン（巻きフォー）</h3>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="imgBx">
+                    <img src="hinhanh_3/Phosotvang.jpg">
+                </div>
+                <div class="text">
+                    <h3>ソヴァン</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="about1" id="about1">
+        <div class="row1">
+            <div class="col501">
+                <h4>おすすめ</h4>
+
+                <p style="font-size: x-large;">
+                <br>ベトナムのハノイ：PHO THIN
+                <br><i>住所：13 LO DUC HAI BA TRUNG HA NOI</i>
+                <br>日本：PHO THIN
+                <br><i>住所：東京部豊島区東池袋1丁目１２－１４</i>
+            </p>
+        </div>
+        </div>
+    </section>
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+    <footer class="footer">
+        <h1 class="credit"> created by <img class="logoo" src="hinhanh_2/logonabe.png">  Team </h1>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+  <script>
+      $(document).ready(function() {
+          $(window).scroll(function() {
+              if ($(this).scrollTop()) {
+                  $('header').addClass('sticky');
+              }else{
+                  $('header').removeClass('sticky');
+              }
+          });
+      });
+  </script>
+  <script>
+      $(document).ready(function() {
+          $(window).scroll(function() {
+              if ($(this).scrollTop()) {
+                  $('#backtop').fadeIn();
+              } else {
+                  $('#backtop').fadeOut();
+              }
+          });
+          $("#backtop").click(function() {
+          $('html, body').animate({
+              scrollTop: 0
+            }, 1000);
+      });
+    });
+  </script>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset=UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>banhxeo</title>
+<link rel="stylesheet" href="style3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="inner-header container">
+            <a href="main.html" id="logo">vietnamfood</a>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="main.html">Trang chủ</a></li>
+                    <li><a href="mienbac.html">Miền Bắc</a></li>
+                    <li><a href="mientrung.html">Miền Trung</a></li>
+                    <li><a href="miennam.html">Miền Nam</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+<section class="home" id="home">
+   <div class="content">
+       <h3>BÁNH XÈO MIỀN TRUNG  </h3>
+       <p>Bánh xèo là một món ăn quen thuộc của người dân miền Nam và miền Trung. Chiếc bánh đơn giản với bột gạo, nhân tôm, thịt... ăn kèm với rau sống, nước chấm từ lâu đã trở thành món ăn chơi bình dị của người dân quê.</p>
+   </div>
+   <div class="image">
+       <img src="hinhanh_3/banhxeo1.jpg" alt="">
+   </div>
+</section>
+<section class="home" id="home">
+   <div class="row">
+       <div class="col50">
+           <h3>NGUỒN GỐC</h3>
+           <p>  Khác với bánh xèo miền Nam khá to, bánh xèo của người miền Trung có kích thước khoảng bằng bàn tay người lớn, ít nhân, thường chỉ là một con tôm nhỏ, hoặc vài ba lát thịt, mực.. thêm một ít giá tươi. 
+               Không hấp dẫn người ăn bởi màu vàng tươi của bột nghệ, cũng không có cái vị béo đặc trưng của nước cốt dừa như bánh xèo miền Nam, chiếc bánh của người miền Trung hấp dẫn người ăn bởi hương vị thơm ngon của chiếc bánh, bên cạnh đó là vị đậm đà của chén nước chấm ăn kèm với rau sống làm cho món ăn thêm thơm ngon. </p>
+           </div>
+       <div class="image">
+           <img src="hinhanh_3/banhxeo2.jpg" alt="">
+       </div>
+       </div>
+    </section>
+   <section class="menu" id="menu">
+       <div class="title">
+            <h3> NGUYÊN LIỆU CHÍNH </h3>>
+            </div>
+
+       <div class="content">
+           <div class="box">
+            <div class="imgBx">     
+           <img src="hinhanh_3/botgao.jpg">
+       </div>
+       <div class="text">
+           <h1> bột gạo  </h1>
+       </div>
+       </div>
+   
+               <div class="box">
+                   <div class="imgBx">     
+                  <img src="hinhanh_3/botnghe.jpg">
+              </div>
+              <div class="text">
+                  <h1> bột nghệ   </h1>
+              </div> 
+              </div>
+              <div class="box">
+                <div class="imgBx">     
+               <img src="hinhanh_3/gia-do.jpg">
+           </div>
+           <div class="text">
+               <h1> giá đỗ </h1>
+           </div> 
+           </div>
+              
+              <div class="box">
+                  
+               <div class="imgBx">     
+              <img src="hinhanh_3/tomtuoi.jpg">
+          </div>
+          
+          <div class="text">
+              <h1>tôm tươi  </h1>
+          </div> 
+          </div>
+          <div class="box">
+                  
+            <div class="imgBx">     
+           <img src="hinhanh_3/thitheo.jpg">
+       </div>
+       <div class="text">
+           <h1>thịt heo  </h1>
+       </div> 
+       </div>
+      </div>
+         </section>
+         <section class="anh1">
+            <div class="anh">
+                <h4> GIỚI THIỆU :</h4>
+                   <p style="font-size: large;">  
+                   <i>Quán Bánh Xèo Tôm Nhảy Thanh Diệu</i><br>
+                   Địa chỉ: 46 Phan Thanh, Thạch Gián, Thanh Khê, Đà Nẵng<br>
+                   <i>Bánh Xèo Bà Dưỡng</i><br>
+                   Địa chỉ: K280/23 Hoàng Diệu, Phước Ninh, Hải Châu, Đà Nẵng<br>
+                   </p>
+                   </div>
+    </section>
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+    <footer class="footer">
+        <h1 class="credit"> created by <img class="logoo" src="hinhanh_2/logonabe.png">  Team </h1>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function() {
+      $(window).scroll(function() {
+          if ($(this).scrollTop()) {
+              $('header').addClass('sticky');
+          }else{
+              $('header').removeClass('sticky');
+          }
+      });
+  });
+</script>
+<script>
+  $(document).ready(function() {
+      $(window).scroll(function() {
+          if ($(this).scrollTop()) {
+              $('#backtop').fadeIn();
+          } else {
+              $('#backtop').fadeOut();
+          }
+      });
+      $("#backtop").click(function() {
+      $('html, body').animate({
+          scrollTop: 0
+        }, 1000);
+  });
+});
+</script>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>com</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="inner-header container">
+            <a href="main.html" id="logo">vietnamfood</a>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="main.html">Trang chủ</a></li>
+                    <li><a href="mienbac.html">Miền Bắc</a></li>
+                    <li><a href="mientrung.html">Miền Trung</a></li>
+                    <li><a href="miennam.html">Miền Nam</a></li>
+                 
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>CỐM</h3>
+            <p>Nói về hương vị mùa thu Việt Nam, đó chính là "Cốm" .Phương pháp làm của Cốmlà
+                thu hoạch lúa non, xào nó, cho đến khi có mùi thơm lên, mềm và rụng ra khỏi cây và có hình dạng bẹt lại, là đã được hoàn thành.</p>
+    
+            <p>Ban đầu Cốm được ăn trong lễ hội kỷ niệm  gạo mới ở làng Tây Bắc. Nhưng hiện tại cốm còn xuất hiện ở những ngày như là cưới của người miền bắc 
+            Người ta nói rằng ăn  Cốm rất ngon, nhưng khi kết hợp với đường có thể tạo ra nhiều món khác,
+            và như một món quà. Cốm được bọc trong lá sen, chiếc lá xanh thanh lịch như dải ruy băng.</p>
+       </div>
+
+        <div class="image">
+            <img src="hinhanh_3/comtrangchu.jpg" alt="">
+        </div>
+
+    </section>
+
+
+    <section class="home" id="home">
+        <div class="row">
+            <div class="col50">
+                <h3>VỊ CỦA CỐM</h3>
+                <p> Khi bạn ăn Cốm, nó có vị đậu nành giống như kinako của Nhật, đặc biệt là mùi thơm giống như edamame và vị ngọt thanh tao. Bạn cũng có thể cảm nhận được hương thơm tươi tốt của lá và gạo. 
+                   Kết cấu hơi dẻo và trông giống như một chiếc bánh nếp. Tuy hạt mịn nhưng nó có độ dai dai khó tả  đến từ Việt Nam.  </p>
+                   <p> Từ sự kết hợp của edamame ngọt và mochi của gạo nếp, không lạ khi nó giống "Zunda mochi" về tổng thể. Cốm không ngọt như đường và không mềm như mochi.
+                     Đó là một hương vị riêng của "Cốm" mà bạn có thể cảm nhận được tối đa vị ngọt của gạo và của hạt gạo nếp.</p> 
+                    
+                   </div>
+                <div class="image">
+                    <img src="hinhanh_3/comtay.jpg" alt="">
+            
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="title">
+
+
+
+
+            <h3> NHỮNG MÓN LÀM TỪ CỐM</h3>
+            <p></p>
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="hinhanh_3/_Com2.jpg">
+                </div>
+                <div class="text">
+                    <h3>Cốm ăn với chuối</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="hinhanh_3/_Com3.jpg">
+                </div>
+                <div class="text">
+                    <h3>Chè Cốm</h3>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="imgBx">
+                    <img src="hinhanh_3/_Com4.jpg">
+                </div>
+                <div class="text">
+                    <h3>Bánh cốm</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about1" id="about1">
+        <div class="row1">
+            <div class="col501">
+                <h4>GIỚI THIỆU</h4>
+
+                <p style="font-size: large;">
+
+                    <br>Việt Nam　:11 dốc Hàng Than, Hà Nội.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+    <footer class="footer">
+        <h1 class="credit"> created by <img class="logoo" src="hinhanh_2/logonabe.png">  Team </h1>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+  <script>
+      $(document).ready(function() {
+          $(window).scroll(function() {
+              if ($(this).scrollTop()) {
+                  $('header').addClass('sticky');
+              }else{
+                  $('header').removeClass('sticky');
+              }
+          });
+      });
+  </script>
+  <script>
+      $(document).ready(function() {
+          $(window).scroll(function() {
+              if ($(this).scrollTop()) {
+                  $('#backtop').fadeIn();
+              } else {
+                  $('#backtop').fadeOut();
+              }
+          });
+          $("#backtop").click(function() {
+          $('html, body').animate({
+              scrollTop: 0
+            }, 1000);
+      });
+    });
+  </script>
+</html>
