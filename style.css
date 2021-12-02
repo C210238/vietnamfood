@@ -246,6 +246,7 @@ figure.snip0016 {
     transition: opacity 0.35s,-webkit-transform 0.35s,-moz-transform 0.35s,-o-transform 0.35s,transform 0.35s;
   }
   figure.snip0016 h2 {
+    color:  #33ffff;
     word-spacing: -0.15em;
     font-weight: 300;
     text-transform: uppercase;
